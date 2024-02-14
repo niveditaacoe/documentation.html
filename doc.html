@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Technical Documentation Page - FreeCodeCamp</title>
+</head>
+
+<body>
+  <header id="main-header">
+    <nav id="navbar">
+      <header>Data structure and algorithms</header>
+      <ul>
+        <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+        <li><a href="#Data_structure" class="nav-link">Data structure</a></li>
+        <li><a href="#Array_data" class="nav-link">Array data</a></li>
+        <li><a href="#Basic_operation" class="nav-link">Basic operation</a></li>
+        <li><a href="#Stack_data" class="nav-link">Stack data</a></li>
+        <li><a href="#Queue_data" class="nav-link">Queue data</a></li>
+        <li><a href="#String_data" class="nav-link">String data</a></li>
+        <li><a href="#Linked_list" class="nav-link">Linked list</a></li>
+        <li><a href="#Heap_data" class="nav-link">Heap data</a></li>
+        <li><a href="#Hashing_data" class="nav-link">Hashing data</a></li>
+        <li><a href="#Graph_data" class="nav-link">Graph data</a></li>
+        <li><a href="#Matrix_data" class="nav-link">Matrix data</a></li>
+        <li><a href="#Tree_data" class="nav-link">Tree data</a></li>
+        <li><a href="#Reference" class="nav-link">Reference</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <article class="main-article">
+        <p>DSA is defined as a combination of two separate yet interrelated topics – Data Structure and Algorithms. DSA is one of the most important skills that every computer science student must have. It is often seen that people with good knowledge of these technologies are better programmers than others and thus, crack the interviews of almost every tech giant.</p>
+        <p>A data structure is defined as a particular way of storing and organizing data in our devices to use the data efficiently and effectively. The main idea behind using data structures is to minimize the time and space complexities. An efficient data structure takes minimum memory space and requires minimum time to execute the data.</p>
+        <ul>
+          <li>Time Complexity: Time complexity is used to measure the amount of time required to execute the code.
+Space Complexity: Space complexity means the amount of space required to execute successfully the functionalities of the code. 
+You will also come across the term Auxiliary Space very commonly in DSA, which refers to the extra space used in the program other than the input data structure.</li>
+          <li>Both of the above complexities are measured with respect to the input parameters. But here arises a problem. The time required for executing a code depends on several factors, such as: 
+
+The number of operations performed in the program, 
+The speed of the device, and also 
+The speed of data transfer if being executed on an online platform. </li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="main-section" id="Data_structure">
+      <header>Data structure</header>
+      <article class="main-article">
+        <p>It neglects the system-dependent constants and is related to only the number of modular operations being performed in the whole program. The following 3 asymptotic notations are mostly used to represent the time complexity of algorithms:
+
+Big-O Notation (Ο) – Big-O notation specifically describes the worst-case scenario.
+Omega Notation (Ω) – Omega(Ω) notation specifically describes the best-case scenario.
+Theta Notation (θ) – This notation represents the average complexity of an algorithm.</p>
+        <ul>
+          <li>The most used notation in the analysis of a code is the Big O Notation which gives an upper bound of the running time of the code (or the amount of memory used in terms of input size).</li>
+          <li>the most crucial and the most awaited stage of the roadmap for learning data structure and algorithm – the stage where you start learning about DSA. The topic of DSA consists of two parts: 
+
+Data Structures
+Algorithms </li>
+          
+        </ul>
+      </article>
+    </section>
+    <section class="main-section" id="Basic_operation">
+      <header>Basic Operation</header>
+      <article class="main-article">
+        <p>Operations on array in python:</p>
+        <code>Below are some operations that can be performed in an array:
+          <ul><li>append()</li>
+          <li>insert()</li>
+          <li>pop()</li>
+          <li>remove()</li>
+          <li>index()</li>
+          <li>reverse()</li></ul>
+</code>
+        <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
+      </article>
+    </section>
+
+
+    <section class="main-section" id="Array_data">
+      <header>Array data</header>
+      <article class="main-article">
+        <p>An array is a collection of items stored at contiguous memory locations. The idea is to store multiple items of the same type together. This makes it easier to calculate the position of each element by simply adding an offset to a base value, i.e., the memory location of the first element of the array (generally denoted by the name of the array).</p>
+        <p>Other than some generic containers like lists, Python in its definition can also handle containers with specified data types. The array can be handled in Python by a module named “array“. They can be useful when we have to manipulate only specific data type values.</p>
+        <p>Properties of Arrays
+Each array element is of the same data type and size. For example: For an array of integers with the int data type, each element of the array will occupy 4 bytes.
+Elements of the array are stored in contiguous memory locations.</p>
+      </article>
+    </section>
+
+    
+    <section class="main-section" id="Stack_data">
+      <header>Stack data</header>
+      <article class="main-article">
+        <p>Stack is a linear data structure that follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out). LIFO implies that the element that is inserted last, comes out first and FILO implies that the element that is inserted first, comes out last.</p>
+        <p>There are many real-life examples of a stack. Consider an example of plates stacked over one another in the canteen. The plate which is at the top is the first one to be removed, i.e. the plate which has been placed at the bottommost position remains in the stack for the longest period of time. So, it can be simply seen to follow LIFO(Last In First Out)/FILO(First In Last Out) order.</p>
+        <p>Java Collection framework provides a Stack class that models and implements a Stack data structure. The class is based on the basic principle of last-in-first-out. In addition to the basic push and pop operations, the class provides three more functions of empty, search, and peek. The class can also be said to extend Vector and treats the class as a stack with the five mentioned functions. The class can also be referred to as the subclass of Vector.</p>
+      </article>
+    </section>
+
+    <section class="main-section" id="Queue_data">
+      <header>Queue data</header>
+      <article class="main-article">
+        <p>A Queue is defined as a linear data structure that is open at both ends and the operations are performed in First In First Out (FIFO) order.</p>
+        <p>We define a queue to be a list in which all additions to the list are made at one end, and all deletions from the list are made at the other end.  The element which is first pushed into the order, the operation is first performed on that.</p>
+        <p>Characteristics of queue:</p>
+        <code>Like stacks, Queues can also be represented in an array: In this representation, the Queue is implemented using the array. Variables used in this case are:
+<ol><li>Queue: the name of the array storing queue elements.</li>
+<li>Front: the index where the first element is stored in the array representing the queue.</li>
+<li>Rear: the index where the last element is stored in an array representing the queue.</li></ol></code>
+        <p>FIFO Principle of Queue:
+<ul><li>A Queue is like a line waiting to purchase tickets, where the first person in line is the first person served. (i.e. First come first serve).</li>
+<li>Position of the entry in a queue ready to be served, that is, the first entry that will be removed from the queue, is called the front of the queue(sometimes, head of the queue), similarly, the position of the last entry in the queue, that is, the one most recently added, is called the rear (or the tail) of the queue.</li> </ol></p>
+      </article>
+    </section>
+
+    <section class="main-section" id="String_data">
+      <header>String data</header>
+      <article class="main-article">
+        <p>Strings are a fundamental concept in programming and are used to represent text data. In programming, a string is a sequence of characters, such as letters, numbers, and symbols. They are widely used for storing and manipulating textual data in various programming languages.</p>
+        <p>String Data Type
+In most programming languages, strings are treated as a distinct data type. This means that strings have their own set of operations and properties. They can be declared and manipulated using specific string-related functions and methods.</p>
+<p>String Operations</p>
+        <code>Strings support a wide range of operations, including concatenation, substring extraction, length calculation, and more. These operations allow developers to manipulate and process string data efficiently.
+
+Below are fundamental operations commonly performed on strings in programming.
+<ol>
+<li>Concatenation: Combining two strings to create a new string.</li>
+<li>Length: Determining the number of characters in a string.</li>
+<li>Access: Accessing individual characters in a string by index.</li>
+<li>Substring: Extracting a portion of a string.</li>
+<li>Comparison: Comparing two strings to check for equality or order.</li>
+<li>Search: Finding the position of a specific substring within a string.</li>
+<li>Modification: Changing or replacing characters within a string.</li></ol></code>
+        
+      </article>
+    </section>
+
+    <section class="main-section" id="Linked_list">
+      <header>Linked list</header>
+      <article class="main-article">
+        <p>A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. The elements in a linked list are linked using pointers as shown in the below image:</p>
+        <p>Given a Linked List, the task is to insert a new node in this given Linked List at the following positions: 
+
+At the front of the linked list  
+After a given node. 
+At the end of the linked list.</p>
+<header>Linked list insertion</header>
+<code>To insert a node at the start/beginning/front of a Linked List, we need to:
+<ul><li>
+Make the first node of Linked List linked to the new node.</li>
+<li>Remove the head from the original first node of Linked List.</li>
+<li>Make the new node as the Head of the Linked List.</li></ul></code>
+      </article>
+    </section>
+
+    <section class="main-section" id="Heap_data">
+      <header>Heap data</header>
+      <article class="main-article">
+        <p>A Heap is a special Tree-based data structure in which the tree is a complete binary tree.</p>
+        <p>Operations of Heap Data Structure:</p>
+        <code><ul><li>Heapify: a process of creating a heap from an array.
+Insertion: process to insert an element in existing heap time complexity O(log N).</li>
+<li>Deletion: deleting the top element of the heap or the highest priority element, and then organizing the heap and returning the element with time complexity O(log N).</li>
+<li>Peek: to check or find the first (or can say the top) element of the heap.</li></ul></code>
+        <p>Types of heap Data Structure</p>
+        <code>Generally, Heaps can be of two types:
+
+<ul><li>Max-Heap: In a Max-Heap the key present at the root node must be greatest among the keys present at all of it’s children. The same property must be recursively true for all sub-trees in that Binary Tree.</li>
+<li>Min-Heap: In a Min-Heap the key present at the root node must be minimum among the keys present at all of it’s children. The same property must be recursively true for all sub-trees in that Binary Tree.</li></ul></code>
+        
+      </article>
+    </section>
+
+    <section class="main-section" id="Hashing_data">
+      <header>Hashing data</header>
+      <article class="main-article">
+        <p>Hashing is a technique or process of mapping keys, and values into the hash table by using a hash function. It is done for faster access to elements. The efficiency of mapping depends on the efficiency of the hash function used.
+
+Let a hash function H(x) maps the value x at the index x%10 in an Array. For example if the list of values is [11,12,13,14,15] it will be stored at positions {1,2,3,4,5} in the array or Hash table respectively.</p>
+<code>How to handle negative numbers? 
+The idea is to use a 2D array of size hash[MAX+1][2]
+<ul><li>Assign all the values of the hash matrix as 0.</li>
+
+<li>Traverse the given array:</li>
+
+    <li>If the element ele is non negative assign 
+hash[ele][0] as 1.</li>
+   <li> Else take the absolute value of ele and 
+ assign hash[ele][1] as 1.</li></ul></code>
+        
+      </article>
+    </section>
+
+    <section class="main-section" id="Graph_data">
+      <header>Graph data</header>
+      <article class="main-article">
+        <p>A Graph is a non-linear data structure consisting of vertices and edges. The vertices are sometimes also referred to as nodes and the edges are lines or arcs that connect any two nodes in the graph. More formally a Graph is composed of a set of vertices( V ) and a set of edges( E ). The graph is denoted by G(E, V).</p>
+        <code>Components of a Graph
+Vertices: Vertices are the fundamental units of the graph. Sometimes, vertices are also known as vertex or nodes. Every node/vertex can be labeled or unlabelled.
+<ul>
+<li>Edges: Edges are drawn or used to connect two nodes of the graph. It can be ordered pair of nodes in a directed graph.</li><li> Edges can connect any two nodes in any possible way. There are no rules. Sometimes, edges are also known as arcs. Every edge can be labeled/unlabelled.</li></ul></code>
+      </article>
+    </section>
+
+    <section class="main-section" id="Tree_data">
+      <header>Tree data</header>
+      <article class="main-article">
+        <p>Tree Data Structure is a hierarchical data structure in which a collection of elements known as nodes are connected to each other via edges such that there exists exactly one path between any two nodes.</p>
+        <header>Types of Tree Data Structure:
+</header><code><ul>
+<li>Binary tree: In a binary tree, each node can have a maximum of two children linked to it. Some common types of binary trees include full binary trees, complete binary trees, balanced binary trees, and degenerate or pathological binary trees.</li>
+<li>Ternary Tree: A Ternary Tree is a tree data structure in which each node has at most three child nodes, usually distinguished as “left”, “mid” and “right”.</li>
+<li>N-ary Tree or Generic Tree: Generic trees are a collection of nodes where each node is a data structure that consists of records and a list of references to its children(duplicate references are not allowed). Unlike the linked list, each node stores the address of multiple nodes.</li></ul></code>
+
+      </article>
+    </section>
+
+    <section class="main-section" id="Matrix_data">
+      <header>Matrix Data</header>
+      <article class="main-article">
+        <p>A matrix is a two-dimensional array that consists of rows and columns. It is an arrangement of elements in horizontal or vertical lines of entries.</p>
+        <ul><li><p>Two common ways of traversing a matrix are row-major-order and column-major-order. 
+Row Major Order: When matrix is accessed row by row. 
+Column Major Order: When matrix is accessed column by column.
+Examples: </li></ul></p>
+        <code>Input : mat[][] = {{1, 2, 3}, 
+                            {4, 5, 6}, 
+                           {7, 8, 9}}
+
+Output : Row-wise: 1 2 3 4 5 6 7 8 9
+               Col-wise : 1 4 7 2 5 8 3 6 9</code>
+      </article>
+    </section>
+
+    <section class="main-section" id="Reference">
+      <header>Reference</header>
+      <article class="main-article">
+        <ul>
+          <li>All the documentation in this page is taken from <a
+              href="https://www.geeksforgeeks.org/queue-data-structure/?ref=lbp">GeeksForGeeks</a></li>
+        </ul>
+      </article>
+    </section>
+  </main>
+</body>
+
+</html>
